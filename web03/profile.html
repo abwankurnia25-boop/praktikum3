@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile - Abwan Kurnia Harahap</title>
+    <style>
+        body { font-family: Arial, sans-serif; width: 800px; margin: auto; }
+        header { border: 1px solid black; padding: 10px; overflow: auto; }
+        header img { width: 150px; float: left; margin-right: 15px; }
+        header aside { float: right; text-align: right; width: 150px; }
+        nav { background-color: lightgray; padding: 8px; margin: 5px 0; }
+        nav a { margin-right: 15px; }
+        article { border: 1px solid black; padding: 10px; }
+        section { margin-bottom: 15px; }
+        .galeri img { width: 150px; margin: 3px; }
+        footer { text-align: center; background-color: black; color: white; padding: 8px; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="foto-diri.jpeg" alt="Foto Diri">
+        <aside>
+            <u><b>Kategori</b></u><br>
+            Mahasiswa<br>
+            Teknik Informatika
+        </aside>
+        <h1>Abwan Kurnia Harahap</h1>
+        <p>
+            <b>NIM:</b> 0110226169<br>
+            <b>Tempat, Tgl Lahir:</b> Kota, 12 Desember 2008<br>
+            <b>Alamat:</b> Jl. zubeir ahmad<br>
+            <b>Email:</b> <a href="mailto:abehengker@gmail.com">abehengker@gmail.com</a><br>
+            <b>Telepon:</b> 0813 6182 2753
+        </p>
+    </header>
+
+    <nav>
+        <a href="#deskripsi">Deskripsi</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="#download">Download</a>
+    </nav>
+
+    <article>
+        <section id="deskripsi">
+            <h2>Deskripsi Diri</h2>
+           <p>Halo, nama saya Abwan Kurnia Harahap. Saya adalah mahasiswa Teknik Informatika di STT Terpadu Nurul Fikri. Saat ini saya sedang belajar pemrograman web dan tertarik dengan dunia teknologi serta desain tampilan website.</p>
+    <p>Selain kuliah, saya berdakwah melalui seni kaligrafi. Bagi saya, kaligrafi adalah cara menyampaikan pesan kebaikan dengan indah. Ke depannya saya ingin memadukan keahlian teknologi dan kaligrafi untuk berdakwah lewat karya digital.</p>
+</section>
+        </section>
+
+        <section id="multimedia">
+            <h2>Video</h2>
+            <video width="320" controls>
+                <source src="video.mp4" type="video/mp4">
+                Browser tidak mendukung video.
+            </video>
+
+            <h2>Koleksi Foto</h2>
+            <div class="galeri">
+                <img src="foto1.jpeg" alt="Foto 1">
+                <img src="foto2.jpeg" alt="Foto 2">
+                <img src="foto3.jpeg" alt="Foto 3">
+                <img src="foto4.jpeg" alt="Foto 4">
+            </div>
+        </section>
+
+        <section id="download">
+            <h2>Download</h2>
+            <ul>
+                <li><a href="cv.pdf" download>Download CV</a></li>
+            </ul>
+        </section>
+    </article>
+
+    <footer>
+        &copy; 2026 Abwan Kurnia Harahap
+    </footer>
+</body>
+</html>
